@@ -6,8 +6,7 @@ The app retrieves relevant document context and generates accurate answers with 
 
 ## Demo
 
-![]()
-
+![RAG-Question-Answering-Chatbot](RAG-Question-Answering-Chatbot_demo.png)
 
 ## Overview
 
@@ -49,18 +48,15 @@ RAG-Question-Answering-Chatbot
 ## Model
 
 Embedding Model
-
-    ```
-    all-MiniLM-L6-v2
-    ```
+```
+all-MiniLM-L6-v2
+```
 Used to convert text into vector embeddings for semantic search.
 
 LLM (Language Model)
-
-    ```
-    gemini-2.5-flash
-    ```
-
+```
+gemini-2.5-flash
+```
 Used for generating responses based on retrieved document context.
 
 ## Run the Project Locally
